@@ -1,0 +1,21 @@
+<root>      
+  <FCUInt Name="TreeEditColor" Value="1010573055"/>
+  <FCUInt Name="TreeActiveColor" Value="252645887"/>
+  <FCInt Name="IconSize" Value="20"/>
+  <FCBool Name="SyncPlacement" Value="1"/>
+  <FCInt Name="FontSize" Value="0"/>
+  <FCInt Name="ItemSpacing" Value="4"/>
+  <FCUInt Name="ItemBackground" Value="0"/>
+  <FCInt Name="ItemBackgroundPadding" Value="10"/>
+  <FCBool Name="ResizableColumn" Value="0"/>
+  <FCBool Name="HideColumn" Value="0"/>
+  <FCBool Name="HideScrollBar" Value="1"/>
+  <FCBool Name="HideHeaderView" Value="1"/>
+  <FCInt Name="ColumnSize1" Value="67"/>
+  <FCInt Name="ColumnSize2" Value="39"/>
+  <FCBool Name="SyncView" Value="1"/>
+  <FCBool Name="SyncSelection" Value="1"/>
+  <FCBool Name="PreSelection" Value="1"/>
+  <FCBool Name="RecordSelection" Value="1"/>
+  <FCBool Name="CheckBoxesSelection" Value="0"/>
+</root>

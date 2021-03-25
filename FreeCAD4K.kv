@@ -1,0 +1,128 @@
+<Label>
+    text_size: self.size
+    halign: 'left'
+    valign: 'middle'
+    size_hint: None, None
+    size: 380, 60
+    text_size: self.size
+    
+<CheckBox>
+    size_hint: None, None
+    active: False
+    size: 60, 60
+
+<Image>
+    allow_stretch: True
+    keep_ratio: True
+    size_hint: None, None
+
+<GridLayout>
+    size_hint: None, None
+
+<Button>
+    size_hint: None, None
+
+<MyLayout>
+    canvas.before:
+        Color:
+            rgba: (52/255,52/255,52/255,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        padding: 10, 10
+
+        Label:
+            text: "Please backup your link.user.cfg file and select which elements to theme:"
+            height: 35
+        
+        GridLayout:
+            cols:2
+            id:check1
+            size:380, 60
+            CheckBox:
+                id: checkui
+                on_active: root.check_include_ui(self.active)
+            Label:
+                text: "UI / Background Settings"
+                
+        GridLayout:
+            cols:1
+            size:380, 380
+            canvas.before:
+                Color:
+                    rgba: .5, .5, .5, 1
+                Line:
+                    width: 1
+                    rectangle: self.x, self.y, self.width, self.height
+            Image:
+                source: 'images/ui.jpg'
+                size: 380, 380   
+
+        GridLayout:
+            cols:2
+            id:check2 
+            size:380, 60
+            CheckBox:
+                id: checkconsole
+                on_active: root.check_include_console(self.active)
+            Label:
+                text: "Output / Console Colours"
+        
+        GridLayout:
+            cols:1
+            size:380, 169
+            canvas.before:
+                Color:
+                    rgba: .5, .5, .5, 1
+                Line:
+                    width: 1
+                    rectangle: self.x, self.y, self.width, self.height
+            Image:
+                source: 'images/python.jpg'
+                size: 380, 169   
+                pos:self.pos
+       
+        GridLayout:
+            cols:2
+            id:check3
+            size:380, 60             
+            CheckBox:
+                id: checksketcher
+                on_active: root.check_include_sketcher(self.active)
+            Label:
+                text: "Sketcher Colours"
+        
+        GridLayout:
+            cols:1
+            size:380, 380
+            padding_bottom: 10
+            
+            canvas.before:
+                Color:
+                    rgba: .5, .5, .5, 1
+                Line:
+                    width: 1
+                    rectangle: self.x, self.y, self.width, self.height
+            Image:
+                source: 'images/sketcher.jpg'
+                size: 380, 380   
+        
+        GridLayout:
+            cols:1
+            padding:0, 20, 0, 0
+            Button:
+                id:main
+                on_press: root.pressed(self.state)
+                on_release: root.check()
+                text: "Select Theme Elements"
+                valign: 'middle'
+                text_size: self.size
+                font_size: 18
+                halign: 'center'
+                size:380,50
+              
+            

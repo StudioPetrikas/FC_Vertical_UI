@@ -1,0 +1,25 @@
+<root>      
+  <FCUInt Name="Text" Value="2477238784"/>
+  <FCBool Name="EnableLineNumber" Value="1"/>
+  <FCBool Name="EnableFolding" Value="1"/>
+  <FCInt Name="TabSize" Value="4"/>
+  <FCInt Name="IndentSize" Value="4"/>
+  <FCBool Name="Tabs" Value="1"/>
+  <FCBool Name="Spaces" Value="0"/>
+  <FCUInt Name="Bookmark" Value="16776960"/>
+  <FCUInt Name="Breakpoint" Value="4278190080"/>
+  <FCUInt Name="Keyword" Value="1081450496"/>
+  <FCUInt Name="Comment" Value="1936945920"/>
+  <FCUInt Name="Block comment" Value="1936945920"/>
+  <FCUInt Name="Number" Value="4294967040"/>
+  <FCUInt Name="String" Value="1000781312"/>
+  <FCUInt Name="Character" Value="4278190080"/>
+  <FCUInt Name="Class name" Value="1321840640"/>
+  <FCUInt Name="Define name" Value="3703857920"/>
+  <FCUInt Name="Operator" Value="4294967040"/>
+  <FCUInt Name="Python output" Value="2863311360"/>
+  <FCUInt Name="Python error" Value="4252787200"/>
+  <FCUInt Name="Current line highlight" Value="707406336"/>
+  <FCInt Name="FontSize" Value="10"/>
+  <FCText Name="Font">MS Shell Dlg 2</FCText>
+</root>

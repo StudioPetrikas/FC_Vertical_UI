@@ -1,0 +1,42 @@
+<root>      
+  <FCBool Name="Std_ReportView" Value="1"/>
+  <FCBool Name="Std_SelectionView" Value="0"/>
+  <FCBool Name="Std_ComboView" Value="1"/>
+  <FCBool Name="Std_PythonView" Value="1"/>
+  <FCBool Name="Std_TreeView" Value="1"/>
+  <FCBool Name="Std_PropertyView" Value="1"/>
+  <FCParamGroup Name="OverlayLeft">
+    <FCInt Name="Width" Value="310"/>
+    <FCInt Name="Height" Value="1923"/>
+    <FCText Name="Widgets">Tree view,Property view,</FCText>
+    <FCText Name="Sizes">678,439</FCText>
+    <FCBool Name="Transparent" Value="1"/>
+  </FCParamGroup>
+  <FCParamGroup Name="OverlayRight">
+    <FCInt Name="Width" Value="477"/>
+    <FCInt Name="Height" Value="1781"/>
+    <FCText Name="Widgets">Combo View,</FCText>
+    <FCText Name="Sizes">1720</FCText>
+    <FCBool Name="Transparent" Value="0"/>
+    <FCBool Name="AutoHide" Value="0"/>
+    <FCBool Name="EditShow" Value="0"/>
+    <FCBool Name="EditHide" Value="0"/>
+    <FCBool Name="TaskShow" Value="1"/>
+    <FCText Name="AutoSizes">1196,500</FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="OverlayTop">
+    <FCInt Name="Width" Value="2828"/>
+    <FCInt Name="Height" Value="90"/>
+  </FCParamGroup>
+  <FCParamGroup Name="OverlayBottom">
+    <FCInt Name="Width" Value="3605"/>
+    <FCInt Name="Height" Value="89"/>
+    <FCText Name="Widgets">Report view,Python console,</FCText>
+    <FCText Name="Sizes">1900,1898,</FCText>
+    <FCBool Name="AutoHide" Value="0"/>
+    <FCBool Name="EditShow" Value="0"/>
+    <FCBool Name="EditHide" Value="0"/>
+    <FCBool Name="TaskShow" Value="0"/>
+    <FCBool Name="Transparent" Value="1"/>
+  </FCParamGroup>
+</root>

@@ -1,0 +1,191 @@
+<root>
+  <FCParamGroup Name="StartWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">File,Workbench,Navigation</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="PartDesignWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,Part Design Helper,Part Design Modeling,Measure</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="SketcherWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,Sketcher,Sketcher tools,Sketcher B-spline tools,Sketcher virtual space,Break,Sketcher geometries,Sketcher constraints</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="CurvedShapesWB"/>
+  <FCParamGroup Name="ArchWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Workbench,Draft tray,Draft creation tools,Arch tools,Draft annotation tools,Break,Draft modification tools,Draft Snap</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="RobotWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Robot</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="SurfaceWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Workbench,Surface</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="PartWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Workbench,Solids,Part tools,Boolean,Measure</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="ReverseEngineeringWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Reverse Engineering</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="DrawingWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Workbench,Drawing</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="DraftWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top">Draft tray</FCText>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,Draft creation tools,Draft annotation tools,Draft modification tools,Draft utility tools,Break,Draft Snap</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="TechDrawWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,TechDraw Pages,TechDraw Views,TechDraw Dimensions,TechDraw File Access,TechDraw Decoration,TechDraw Annotation,TechDraw Clips</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="InventorWorkbench"/>
+  <FCParamGroup Name="Assembly4Workbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top">Break,Tabs</FCText>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Assembly</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="MeshWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Mesh tools,Mesh modify,Mesh boolean,Mesh cutting,Mesh segmentation,Mesh analyze</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="SpreadsheetWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Spreadsheet</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="PetrikasMacrosWB"/>
+  <FCParamGroup Name="PetrikasMacros">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,Blender,Petrikas Macros</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="DefeaturingWB">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,Defeaturing Tools,Fuzzy Tools</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="FastenersWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Break,Workbench,FS Commands,Break,FS Screws</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="Assembly3Workbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Workbench,Assembly3,Assembly3 Navigation,Assembly3 Measurements,Assembly3 Constraints,Break,Assembly3 Sketch Constraints,Assembly3 Constraints2</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="CurvesWorkbench"/>
+  <FCParamGroup Name="NoneWorkbench"/>
+  <FCParamGroup Name="FemWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Workbench,Model,Electrostatic Constraints,Fluid Constraints,Geometrical Constraints,Mechanical Constraints,Thermal Constraints,Mesh,Solve,Break,Results,Utilities</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="ImageWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Workbench,Image</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+  <FCParamGroup Name="InspectionWorkbench"/>
+  <FCParamGroup Name="OpenSCADWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,OpenSCADTools,OpenSCAD Part tools</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="PathWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Project Setup,Tool Commands,New Operations,Path Modification</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="PointsWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Points tools</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="RaytracingWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,Raytracing tools</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="TestWorkbench">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"></FCText>
+    <FCText Name="Left"></FCText>
+    <FCText Name="Right">Break,Workbench,TestTools</FCText>
+    <FCText Name="Bottom"></FCText>
+  </FCParamGroup>
+  <FCParamGroup Name="WebWorkbench"/>
+  <FCParamGroup Name="ManipulatorWB">
+    <FCBool Name="Saved" Value="1"/>
+    <FCText Name="Top"/>
+    <FCText Name="Left"/>
+    <FCText Name="Right">Workbench,Manipulator Tools,Datum Tools</FCText>
+    <FCText Name="Bottom"/>
+  </FCParamGroup>
+</root>
