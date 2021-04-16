@@ -138,11 +138,22 @@ class MyLayout(Widget):
                         # Backup binary registry file to AppData\FreeCAD\ folder. To restore backup, run regedit and File -> Import, select "Registry Hive Files" in the dropdown and select the 'regbackup' file
                         if os.path.isfile(winpath + f"regbackup{self.regcount}"):
                             self.regcount +=1
-                            winreg.SaveKey(handle, winpath + f"regbackup{self.regcount}")
+                            winreg.SaveKey(handle, winpath + f"regbackup_512{self.regcount}")
                         else:
-                            winreg.SaveKey(handle, winpath + f"regbackup{self.regcount}")    
+                            winreg.SaveKey(handle, winpath + f"regbackup_512{self.regcount}")    
                     # Deleting redundant registry keys (made redundant by Persistent Toolbars, which writes the layout in the .cfg file)
                     winreg.DeleteKey(winreg.HKEY_CURRENT_USER, "SOFTWARE\\FreeCAD\\FreeCAD\\Qt5.12")
+                    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "SOFTWARE\\FreeCAD\\FreeCAD\\Qt5.15") as handle:
+                        # Ask for Elevated Permissions 
+                        win32security.AdjustTokenPrivileges(win32security.OpenProcessToken(win32api.GetCurrentProcess(), 40), 0, [(win32security.LookupPrivilegeValue(None, 'SeBackupPrivilege'), 2)])
+                        # Backup binary registry file to AppData\FreeCAD\ folder. To restore backup, run regedit and File -> Import, select "Registry Hive Files" in the dropdown and select the 'regbackup' file
+                        if os.path.isfile(winpath + f"regbackup{self.regcount}"):
+                            self.regcount +=1
+                            winreg.SaveKey(handle, winpath + f"regbackup_515{self.regcount}")
+                        else:
+                            winreg.SaveKey(handle, winpath + f"regbackup_515{self.regcount}")    
+                    # Deleting redundant registry keys (made redundant by Persistent Toolbars, which writes the layout in the .cfg file)
+                    winreg.DeleteKey(winreg.HKEY_CURRENT_USER, "SOFTWARE\\FreeCAD\\FreeCAD\\Qt5.15")
                 except:
                     pass
 
